@@ -1,0 +1,206 @@
+body {background: #f7f8fa;}
+
+.advantage {margin-bottom:30px;}
+.advantage .topinfo {height:40px; line-height: 40px;overflow: hidden}
+.advantage .topinfo .tempWrap {width:1170px;}
+.advantage .topinfo .icon_notice {width:30px;height:30px; background-position: -414px -1px;float:left;margin-top:6px;}
+.advantage ul,.advantage ul li {height:40px; line-height: 40px; overflow: hidden;position: relative}
+.advantage ul li i {position: absolute; background:#838383; width:2px; height:2px; border-radius: 50%; top:18px;left:0}
+.advantage ul {width:1200px;}
+.advantage ul li {float:left; width:30%;margin:0 1.5%;}
+.advantage ul a {display: block; position: relative; font-size:14px;font-family: simsun; text-indent: 1em;}
+.advantage li a:link,.advantage li a:visited {color:#838383}
+.advantage li a:hover {color:#4c4c4c; text-decoration: underline}
+.advantage li em {display: inline-block; width:33px; height:16px; margin-top:-5px; }
+.advantage li .new {background-position:-5px -229px;}
+.advantage li .hot {background-position:-73px -229px;}
+.advantage h3 {text-align: center; margin:25px auto; font-family: "microsoft yahei"; font-size:18px; font-weight:normal;color:#404040;}
+.advantage h3 span {font-size:14px; color:#adadad; display: block}
+
+.adva_li {width:25%; height:220px;float:left; text-align: center; background: #fff;transition: background 0.6s ease-in; -webkit-transition: background 0.6s ease-in; -moz-transition: background 0.6s ease-in;}
+.adva_li h4 {color:#404040; font-family: "microsoft yahei"; font-size:18px;height:30px; line-height: 30px; margin:10px 0 5px ;}
+.adva_li .advpic {width:82px; height:81px;margin:0 auto}
+.adva_li p {color:#928d8d; font-size:14px; font-family: "Microsoft Yahei";margin-top:10px;}
+.adva_li a {display: block; width:115px; height:35px;border:1px solid #858585; line-height: 35px;margin:10px auto;}
+.adva_li .adva01 {background-position: -5px -177px;}
+.adva_li .adva02 {background-position: -121px -177px;}
+.adva_li .adva03 {background-position: -235px -177px;}
+.adva_li .adva04 {background-position: -348px -177px;}
+.adva_li01.on {background: #00b0ff; transition: background 0.6s ease-in; -moz-transition: background 0.6s ease-in; -webkit-transition: background 0.6s ease-in;}
+.adva_li02.on {background: #ffa200; transition: background 0.6s ease-in; -moz-transition: background 0.6s ease-in; -webkit-transition: background 0.6s ease-in;}
+.adva_li03.on {background: #00d9c8; transition: background 0.6s ease-in; -moz-transition: background 0.6s ease-in; -webkit-transition: background 0.6s ease-in;}
+.adva_li04.on {background: #47d088; transition: background 0.6s ease-in; -moz-transition: background 0.6s ease-in; -webkit-transition: background 0.6s ease-in;}
+.adva_li.on h4, .adva_li.on .advpic, .adva_li.on p, .adva_li.on a {color:#fff;}
+.adva_li.on a {border-color:#fff;}
+.adva_li.on .adva01 {background-position: -5px -80px; }
+.adva_li.on .adva02 {background-position: -121px -80px;}
+.adva_li.on .adva03 {background-position: -235px -80px;}
+.adva_li.on .adva04 {background-position: -346px -79px;}
+
+.hotline { background: #001a45; overflow: hidden}
+.hotline .w_ctr {height:675px;}
+.hotline h3 {top:20px; left:0}
+.hotline .hotline_num {width:280px; height:35px; border:1px solid #fff; color:#fff; line-height: 35px; left:50%; margin-left:-125px; top:70px; text-align: center;z-index: 2}
+.hotline .hotline_num b {font-size:20px; font-family: Arial, "Microsoft Yahei"; margin-left:10px;}
+.sendinfo_scroll {top:-75px; right:0; background: url('../images/sendinfo_scroll.png') no-repeat; width:550px; height:540px;z-index: 1}
+.sendinfo_map {float:right; width:380px; margin-top:170px;margin-right:40px;}
+.sendinfo_map .area {line-height: 26px; text-align: center; color:#78a3c6; height:48px; margin-bottom:5px; border:1px solid #001a45; cursor: pointer; overflow: hidden}
+.sendinfo_map .area.on {border:1px solid #c3d3e4; background:#062454;}
+.sendinfo_map .area span { display:block }
+.sendinfo_map .area span.qy {font-family: 'simsun';font-size:14px;height:22px; line-height: 22px; overflow:hidden }
+.sendinfo_map .area span.tel {font-family:'microsoft yahei'; font-size: 16px;color:#fffcd0; height:22px; line-height: 22px;}
+.sendinfo_map .area i {display: inline-block; *zoom:1; *display:inline; vertical-align: middle;background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, #FFFFFF 100%); background/*\**/:#fff\9;  height:1px; line-height: 0; font-size:0;}
+.sendinfo_map .a1 i {width:200px;}
+.sendinfo_map .a2 i {width:100px;}
+.sendinfo_map .a3 i {width:120px;}
+.sendinfo_map .a4 i {width:150px;}
+.sendinfo_map .a5 i {width:220px;}
+.sendinfo_map .a6 i {width:100px;}
+.sendinfo_map .area em {display: inline-block; *zoom:1; *display:inline;vertical-align: middle;width:9px; height:9px; background:url("../images/in_sprites.png") -106px -50px; overflow: hidden; line-height: 0; font-size:0;}
+.sendinfo_map .sendinfo_map01 {background:url("../images/map_01.png"); width:391px; height:328px; top:35px; left:-50px;}
+.sendinfo_map .sendinfo_map02 {background:url("../images/map_02.png"); width:364px; height:306px; top:60px; left:10px;}
+.sendinfo_map .sendinfo_map03 {background:url("../images/map_03.png"); width:346px; height:289px; top:100px; left:70px;}
+.hotline .zyb_contact {color:#78a3c6;width:380px; text-align: center; line-height: 24px; font-size:16px; margin-top:35px;}
+.hotline .zyb_contact h5 {font-size:16px; height:24px; line-height: 24px;}
+.hotline .zyb_contact p {font-size:16px; }
+.chineseMap {float:left; margin-top:170px;margin-left:90px; position: relative;}
+.chineseMap .map_bg {background: url("../images/index_hotline.png") no-repeat; width:550px; height:540px;top: -30px; left: -35px; position:absolute; z-index: 1;}
+.chineseMap svg {position: relative; z-index: 2;}
+.chineseMap svg path {cursor:pointer}
+.maplocation {position: absolute; width:21px; height:29px; z-index: 3; top:265px; left:445px;}
+.maplocation img {width:100%;height:100%}
+.maplocation .arr {width:19px; height:22px; z-index: 2; animation:arrTop 1s linear infinite; -moz-animation:arrTop 1s linear infinite; -webkit-animation:arrTop 1s linear infinite;}
+.maplocation .shadow {width:15px; height:9px; z-index: 1; top:18px;left:2px;}
+@keyframes arrTop {80% {top:-3px;} 20% {top:3px;} }
+@-webkit-keyframes arrTop {80% {top:-3px;} 20% {top:3px;} }
+@-moz-keyframes arrTop {80% {top:-3px;} 20% {top:3px;} }
+@-o-keyframes arrTop {80% {top:-3px;} 20% {top:3px;} }
+@-ms-keyframes arrTop {80% {top:-3px;} 20% {top:3px;} }
+.mapforIE {position: relative; z-index: 2;}
+/*.ChineseMapforIE {background: url("../images/index_map.png") no-repeat; width:534px;height:442px; position: absolute; z-index:2;}*/
+
+.solution {width:1202px;margin:0 auto 12px;}
+.solution .tit,.contactus .tit {text-align: center;margin:20px auto 32px;}
+.solution .tit span,.contactus .tit span {background-position: -221px -8px; width:18px; height:42px;}
+.solution .tit h2,.contactus .tit h2 {font-size:18px;margin-top:4px; font-family: "microsoft yahei"; font-weight: normal; color:#404040;}
+.solution .tit p,.contactus .tit p {font-size:14px; font-family: "microsoft yahei"; color:#adadad;}
+
+.solution .solu_li {width:203px; float:left;margin-right:1px; position: relative; overflow: hidden; transition: width 0.3s;}
+.solution .icon_solu {background-image: url(../images/index_solu.png); background-repeat: no-repeat;}
+.solution .solu_li .nor {width:203px; height:240px;background: #4cc2ea;float:left;cursor:pointer;position: relative; z-index:2;}
+.solution .solu_li .nor .solupic {width:57px;height:57px; display: block; margin:46px auto 0}
+.solution .icon_solu.solu_01 {background-position: -8px -6px;}
+.solution .icon_solu.solu_02 {background-position: -80px -6px;}
+.solution .icon_solu.solu_03 {background-position: -153px -6px;}
+.solution .icon_solu.solu_04 {background-position: -225px -6px;}
+.solution .solu_li .nor a {display: block; position: absolute; width:100%; top:0; left:0; color:#fff;text-align: center; height:100%; line-height:28px; font-size:14px; overflow: hidden}
+.solution .solu_li .nor i {width:20px; height:20px; background-position: -118px -5px;}
+.solution .solu_li .nor .name_cn {margin-top:105px;height:32px; line-height: 32px; width:100%; overflow: hidden}
+.solution .solu_li .nor .name_en {font-size:10px; text-align: center; width:100%; height:23px; overflow: hidden; line-height: 23px;}
+.solution .solu_li .nor .line {height:1px; overflow: hidden; font-size:0; background: #fff; width:130px; display: block; margin:0 auto;}
+.solution .solu_li.on {width:589px; transition: width 0.3s;}
+.solution .solu_li.on .nor {background: #12b1e7}
+.solution .solu_li.on .solupic {background-position-y:-74px; animation: indexsolu 1s ease; }
+.solution .solu_li.on .nor i {background-position: -152px -5px}
+.solution .solu_li.on .products_list {display: block;margin-left:205px;}
+.solution .solu_li .products_list {width:384px; height:240px; position: absolute; z-index: 1; right:0; top:0;}
+.solution .solu_li .products_list a.solu_more {display:block ;width:33px; height:240px; line-height: 240px; color:#fff; background:#12b1e7; float:right; vertical-align: middle; overflow: hidden}
+.solution .solu_li .products_list a.solu_more span {width:20px; height:38px; line-height: 16px;padding:0 6px; font-size: 14px; font-family: "microsoft yahei"; text-align: center;*margin-top:95px;}
+.solution .solu_li .products_list a.solu_more span i {background-position: -282px -8px;width:12px; height:34px;left:10px; bottom:-34px;}
+.solution .solu_li .products_list .product_li {width:338px; height:220px;float:left;background:#001a45; padding:10px 7px;float:left;margin:0 0 0 -1px }
+.solution .solu_li .products_list .product_li ul {margin:0 0 -1px -1px;}
+.solution .solu_li .products_list .product_li li {width:112px; height:110px; float:left;margin:0 0 1px 1px;overflow:hidden}
+.solution .solu_li .products_list .product_li li a {display:none; position: absolute;width:100%; height:100%; line-height: 110px; font-size: 14px; color:#fff; text-align: center; vertical-align:middle; left:0; top:0; background-position: -5px -424px; text-indent: -9999px;}
+.solution .solu_li .products_list .product_li li:hover a {text-indent: 0;display: block}
+.solution .solu_targ_line {height:1px; background:#bcbcbc;margin:45px auto; width:65%;position: relative}
+.solution .solu_targ_line .tagbar {width:25%; height:5px; background: #4cc2ea; position: absolute; top:-2px; cursor: pointer}
+.solution .solu_targ_line .tagbar.down {background: #29A1CA}
+@keyframes indexsolu {
+    0% {margin-top:-10px;}
+    40% {margin-top:53px;}
+    60% {margin-top:30px;}
+    70% {margin-top:50px;}
+    90% {margin-top:40px;}
+    100% {margin-top:46px;}
+}
+
+.corpration {background: #4cc2ea; padding:22px 0;position: relative;margin-bottom:14px;}
+.corpration h3,.hotline h3 {color:#fff; font-weight: normal; margin:0 auto; font-size:18px; text-align: center}
+.hotline h3 {width:1200px;}
+.corpration h3 span,.hotline h3 span {font-size:14px; color:#b2ecff; display: block; margin-top:2px;}
+.corpration .hd {text-align: center;display: block; overflow: hidden; margin-top:26px;position: relative; height:50px;}
+.corpration .hd .tab {font-size:14px; color:#fff; height:46px; margin:0 2%;position: relative;cursor: pointer}
+.corpration .hd .tab span {position: absolute;display: none; bottom:5px; background-position: -190px -6px; width:11px; height:11px; left:50%; margin-left:-5px;}
+.corpration .hd .on span {display: block}
+.corpration .hd .line {position:absolute; display: block; width:100%; height:1px; background: #82d4f0; font-size:0; overflow:hidden; position:absolute; top:36px;left:0}
+.corpration .bd {display: block; width:840px; margin:15px auto 7px;}
+.corpration .bd .tempWrap {margin:0 57px;}
+.corpration .bd .products_box {display: block; width:840px; height:85px; margin:0 auto;overflow:hidden;}
+.corpration .bd .products_box ul {padding-left:55px;}
+.corpration .bd ul li {display: block; width:135px; float:left; height:84px; margin:0 5px}
+.corpration .bd a.slidebtn {display: block; width:30px; height:45px; position: absolute; top:50%; margin-top:-22.5px;}
+.corpration .bd a.prev {background-position: -327px -8px; left:0;}
+.corpration .bd a.next {background-position: -362px -8px; right:0;}
+.corpration .btmline {height:7px; background: #7fdcfb; border-bottom:7px solid #beefff; position: absolute; bottom:-14px;left:0;width:100%;}
+
+.contactus {margin-top:15px;padding-bottom:80px; overflow: hidden}
+.contactus .tit {margin-bottom:42px;}
+.contactus .con_bd {width:910px;margin:15px auto 0; overflow:hidden}
+.contactus .l_bd {width:445px;float:left;margin-right:25px;}
+.contactus .r_bd {width:440px;float:left;}
+.contactus .l_bd dt,.contactus .r_bd dt {font-size:24px; font-family: "microsoft yahei"; color:#adadad; font-weight: normal;margin-bottom:6px;}
+.contactus .l_bd dd {color:#777;font-size:14px; font-family:"microsoft yahei";padding:12px 0;border-bottom:1px solid #d2d2d2; line-height: 22px}
+.contactus .l_bd dd.nobdr {border-bottom:none;}
+.contactus .l_bd dd.nobdr a {width:28px; height:28px;margin:0 5px;cursor:pointer}
+.contactus .l_bd dd.nobdr a.kfon {background-position: -188px -568px;}
+.contactus .l_bd dd.nobdr a.kfoff {background-position: -229px -568px;}
+.contactus .r_bd dd {margin-top:10px;}
+.contactus .r_bd dd .form_line {margin-bottom:12px;}
+.contactus .r_bd dd .form_line input {border:1px solid #efefef;}
+.contactus .r_bd dd .form_line.err input {border:1px solid #ffa200;}
+.contactus .form_line.err .errtip {font-size:14px; color:#ff6d00;margin-left:5px;}
+.contactus .form_line input {height:32px; line-height: 32px;background: #efefef; color: #adadad; border:none; outline: 0; padding:0 5px;font-family: "microsoft yahei";font-size:14px;}
+.contactus .form_line textarea {background:#efefef; color:#adadad;border:none;padding:10px 5px;width:430px; height:65px;outline: 0; line-height:20px;font-family: "microsoft yahei" }
+.contactus .form_line .textnum {font-size:14px; color:#adadad; font-family: simsun}
+.contactus .textnum em {color:#555;}
+.contactus .form_submit {text-align: right;}
+.contactus .form_submit input {margin:0 5px; color:#fff;padding:0 25px; height:30px; line-height: 30px; text-align: center; border:none; outline: 0;cursor: pointer; *overflow:visible;}
+.contactus .form_submit input.reset {background:#ffa200}
+.contactus .form_submit input.reset:hover {background:#FDAF25}
+.contactus .form_submit input.submit {background: #4cc2ea}
+.contactus .form_submit input.submit:hover {background: #60D2F9}
+
+.shengName {position: absolute;width:540px; height:460px; z-index: 3;}
+.location_text {color:#25467E; font-family: "microsoft yahei"; font-size:14px; position: absolute; z-index: 3;}
+.heilongjiang {top:65px; left:465px;}
+.jilin {top:105px; left:465px;}
+.liaoning {top:140px; left:440px;}
+.hebei {top:190px; left:385px;}
+.beijing {top:160px; left:390px;}
+.tianjin {top:170px; left:405px;}
+.shangdong {top:205px; left:410px;}
+.jiangsu {top:245px; left:430px;}
+.shanghai {top:265px; left:460px;}
+.zhejiang {top:285px; left:445px;}
+.fujian {top:330px; left:430px;}
+.taiwan {top:350px; left:460px;}
+.guangdong {top:365px; left:380px;}
+.hainan {top:420px; left:340px;}
+.guangxi {top:365px; left:330px;}
+.yunnan {top:355px; left:250px;}
+.guizhou {top:330px; left:305px;}
+.jiangxi {top:310px; left:400px;}
+.anhui {top:260px; left:410px;}
+.henan {top:240px; left:370px;}
+.hubei {top:275px; left:360px;}
+.hunan {top:320px; left:360px;}
+.sichuan {top:285px; left:265px;}
+.chongqin {top:296px; left:308px;}
+.shanxi {top:200px; left:355px;}
+.sanxi {top:240px; left:320px;}
+.nmg {top:120px; left:380px;}
+.ningxia {top:205px; left:300px;}
+.gansu {top:230px; left:280px;}
+.qinhai {top:220px; left:220px;}
+.xinjiang {top:140px; left:120px;}
+.xizang {top:275px; left:140px;}

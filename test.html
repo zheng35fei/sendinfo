@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--<video src="images/zyb.mp4" width="320" height="240" controls autobuffer></video>-->
+<div id="ChinaMap"></div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/lib/raphael-min.js"></script>
+<script type="text/javascript" src="js/chinaMapConfig.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="js/lib/SyntaxHighlighter.js"></script>
+<script src="js/public.js"></script>
+<script type="text/javascript">
+    $(function(){
+        // 默认
+        $('#ChinaMap').SVGMap({
+            mapName: 'china',
+            mapWidth: 600,
+            mapHeight: 500,
+            stateData: {
+                'heilongjiang': {'stateInitColor': 1, 'baifenbi': 0.236},
+                'beijing': {'stateInitColor': 2},
+                'shanghai': {'stateInitColor': 3},
+                'tianjin': {'stateInitColor': 4},
+                'sichuan': {'stateInitColor': 5},
+                'shandong': {'stateInitColor': 6},
+                'shanxi': {'stateInitColor': 3},
+                'zhejiang': {'stateInitColor': 4},
+                'jiangshu': {'stateInitColor': 2},
+                'hunan': {'stateInitColor': 4},
+                'guizou': {'stateInitColor': 5},
+                'neimenggu': {'stateInitColor': 6},
+                'henan': {'stateInitColor': 3},
+                'gansu': {'stateInitColor': 4},
+                'ningxia': {'stateInitColor': 2},
+                'jilin': {'diabled': true}
+            }
+
+        });
+    });
+</script>
+</body>
+</html>
